@@ -122,13 +122,13 @@ This project uses Yarn as package manager
 ### Installation
 
 ```bash
-  git clone https://github.com/Louis3797/express-ts-boilerplate.git
+  git clone https://github.com/lassbon/boilerplate-typescript-node-express.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd express-ts-boilerplate
+  cd typescript-express
 ```
 
 ```bash
@@ -177,39 +177,3 @@ Start the server in production mode
 ```bash
   yarn start
 ```
-
-<!-- Run with Docker -->
-### Run with Docker
-
-Build the container
-
-```bash
-  cd express-ts-boilerplate
-  docker build . -t express-ts-boilerplate     
-```
-
-Start the container
-
-```bash
-  docker run -p <port you want the container to run at>:4040 -d express-ts-boilerplate    
-```
-
-
-<!-- License -->
-## License
-
-Distributed under the MIT License. See LICENSE.txt for more information.
-
-
-<!-- Contact -->
-## Contact
-
-Louis-Kaan Ay
-
-Project Link: [https://github.com/Louis3797/express-ts-boilerplate](https://github.com/Louis3797/express-ts-boilerplate)
-
-
-<!-- Acknowledgments -->
-## Acknowledgements
-
- - [Readme Template](https://github.com/Louis3797/awesome-readme-template)
